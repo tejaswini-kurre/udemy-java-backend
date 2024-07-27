@@ -1,0 +1,16 @@
+How spring works behind the scenes for spring-webmvc library.
+(use eclipse)
+
+Add external tomcat
+Create Controller file and view files(jsp).
+
+web.xml contains omcat configuration.
+DispatcherServlet is used to tell tomcat to call it for the very first time for all the paths.
+
+
+next we have to configure DispatcherServlet.(there will be another .xml file with project name as file name)
+In that we have to configure:
+component-scan 
+annotation config
+For any views to call we can add prefix and suffix extensions using InternalResourceViewResolver.
+(just like adding properties in application.properties files in spirng-boot)

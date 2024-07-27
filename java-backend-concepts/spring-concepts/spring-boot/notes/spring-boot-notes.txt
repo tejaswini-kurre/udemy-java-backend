@@ -1,0 +1,22 @@
+backend has three layers
+1. Controller
+2. Service
+3. Repository
+
+Controller:
+---------------
+Controller is responsible for accepting requests from the View layer and give data back to View layer.
+Controller is not responsible for any processing.
+Receives data from service.
+
+Service
+---------
+Service is responsible for processing any computational code
+Service will not have any data.
+Data will get from repository or DAO(Data Access Object) and gives it to Controller.
+
+
+Repository
+-------------
+Resposible for interacting with database.
+Gets the data from database and gives it to service.

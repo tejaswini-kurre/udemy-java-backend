@@ -1,0 +1,40 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="alien" class="com.tejaswini.Alien" autowire="byName">
+
+<!--        <constructor-arg index="1" ref="lap" />-->
+<!--        <constructor-arg index="0" value="25" />-->
+
+<!--        <constructor-arg type="com.tejaswini.Laptop" ref="lap" />-->
+<!--        <constructor-arg type="int" value="25" />-->
+
+<!--        <property name="age" value="21" />-->
+<!--        <property name="laptop" ref="lap" />-->
+
+<!--        <property name="age" value="21" />-->
+<!--        <property name="comp" ref="comp1" />-->
+
+        <property name="age" value="21" />
+        <property name="comp" >
+            <bean id="comp"  class="com.tejaswini.Laptop" primary="true">
+            </bean>
+        </property>
+    </bean>
+
+<!--    <bean id="alien" class="com.tejaswini.Alien" scope="prototype">-->
+<!--    </bean>-->
+
+<!--    <bean id="lap" class="com.tejaswini.Laptop">-->
+<!--    </bean>-->
+
+<!--    <bean id="comp" class="com.tejaswini.Laptop" primary="true">-->
+<!--    </bean>-->
+
+<!--    <bean id="comp1" class="com.tejaswini.Desktop" lazy-init="true">-->
+<!--    </bean>-->
+</beans>
+

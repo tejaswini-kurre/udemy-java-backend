@@ -1,0 +1,17 @@
+What is maven:
+----------------
+maven is a project management tool.
+It is used to perform all project lifecycle stages such as compile, run, test, packaging and deploying.
+It is used to add/manage dependencies of the project in pom.xml file(project object model).
+
+How maven works:
+-------------------
+When a dependency is added in pom.xml file
+maven first checks whether the jar file is present in local or not.
+if it is present it will pick, else
+it connects to maven repository and download the required dependency along with transistant dependency.
+
+Effective POM:
+--------------------
+it is hidden by default.
+it contains default settings and configuration of our application

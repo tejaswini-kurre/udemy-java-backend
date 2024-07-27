@@ -1,0 +1,46 @@
+what is spring?
+------------------
+spring is a framework to create applications in java.
+spring is a light weight framework
+spring works on POJOs(Plan old java objects).
+
+
+IOC(Inversion of Control) and DI(dependency injction):
+--------------------------------------------------------
+spring contains IOC conatiner to create objects.
+These objects can be used in the programs using dependency injection.
+
+different types of object creation in spring
+----------------------------------------------
+1. xml configuration
+2. java based configuration
+3. annotation based configuration
+
+Object creation in xml configuration
+---------------------------------------
+In spring objects are called beans.
+these beans are stored in IOC container.
+IOC container is maintained by Application context.
+objecta/beans are created by ApplicationContext.
+we have to provide xml file which contains all java class related bean creation information into this ClassPathXmlApplicationContext constructor
+In xml file, bean tag, we provide id,class,scope of a java class.
+scope is of two types: 1.singleton, 2.prototype
+singleton scope creates only one object of the specified class in Application context is created.
+prototype scope creates multiple objects every time getBean() method is called.
+by default scope is singleton.
+
+constructor injection in xml configuration
+----------------------------------------------
+<property> tag is used to add values to the class variables by calling setter method.
+<constructor-args> tag is used to call parameterised constructor of that class which passes required parameters.
+
+different types of dependency injection in java based configuration
+------------------------------------------------------------------------
+1. field based injection
+2. constructor based injection
+3. setter based injection
+
+preference between @Qualifier and @Primary in java based configuration
+-----------------------------------------------------------------------
+first preference @Qualifier
+second preference @Primary

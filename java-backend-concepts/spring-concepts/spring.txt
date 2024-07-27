@@ -1,0 +1,14 @@
+what is spring?
+------------------
+spring is a framework to create applications in java.
+spring is a light weight framework
+spring works on POJOs(Plan old java objects).
+
+
+IOC(Inversion of Control) and DI(dependency injction):
+--------------------------------------------------------
+spring contains IOC conatiner to create objects.
+These objects can be used in the programs using dependency injection.
+
+spring vs spring boot
+------------------------

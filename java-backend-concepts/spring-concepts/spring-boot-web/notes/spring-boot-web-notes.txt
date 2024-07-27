@@ -1,0 +1,45 @@
+Servlet:
+-----------
+Servlet is responsible for receiving requests from cluent
+and sends response back to the client.
+Servlets runs on server say Tomcat.
+
+JSP:
+-------
+JSP stands for Jakarta server pages.
+JSP contains both html and java code.
+Jsp code is converted to servlet and then runs on (tomcat) server
+
+MVC Architecture
+-------------------
+Client sends request to controller
+
+
+
+to add data from controller to view pages(jsp/jstl):
+1. session variable (HttpSession)
+2. model attribute (Model)
+use anyone of the two types and set the data.
+then return jsp page name 
+
+ModelAndView is used to set data and view both into a single object.
+then we can directly return that object.
+
+
+@RequestMapping
+------------------
+Can be used on both method level and class level
+used to create path that can be hit from view.
+
+@RequestParam
+------------------
+Used as parameter in method level,
+to accept request parameters that hit from the view
+
+@modelAttribute
+------------------
+Similar to model and session attributes but,
+no need to explicitly use setAttribute()/addAttrobute() methods to set the data
+that can be used in view pages.
+This can be used in both method level and parameter level.
+
