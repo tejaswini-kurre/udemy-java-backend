@@ -1,0 +1,8 @@
+AOP stands for Aspect Oriented Programming.
+
+Cross cutting concerns.
+
+Logging the calls for performance monitoring, exception handling, validations and so on.
+
+AOP Concepts:
+---------------

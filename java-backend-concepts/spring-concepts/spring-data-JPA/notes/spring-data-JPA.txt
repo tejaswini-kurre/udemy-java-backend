@@ -1,0 +1,13 @@
+ORM:
+----------
+ORM stands for Object Relational Mapping.
+It is used to map java objects into database tables.
+To implement this, we have different ORM tools like Hibernate.
+
+JPA:
+-----
+JPA stands for Java Persistance API.
+Spring Data JPA is a module in spring ecosystem, used to implement different tools 
+like Spring ORM, hibernate and so on in a simple and easy way.
+
+

@@ -1,13 +1,2 @@
 INDEX VERSION 1.134+C:\Users\Tejaswini\OneDrive\Documents\notes\.metadata\.plugins\org.eclipse.jdt.core
-2424785262.index
-1370498733.index
-3706919798.index
-754860472.index
-976565986.index
-3671432914.index
 1865797976.index
-1977898374.index
-293703472.index
-3537722597.index
-3270277688.index
-1297013223.index
